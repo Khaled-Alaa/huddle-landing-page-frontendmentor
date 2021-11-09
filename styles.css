@@ -1,0 +1,86 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 40%, 69%);
+}
+
+body {
+  background: url("./images/bg-desktop.svg");
+  background-color: #674bb1;
+  padding: 2rem 3rem 0 3rem;
+  font-family: "Segoe UI";
+}
+
+.page-header img {
+  width: 12rem;
+}
+
+.page-content {
+  display: flex;
+  margin-top: 4rem;
+  justify-content: space-between;
+  padding: 0 5.5rem 0 5.5rem;
+}
+
+.data-container {
+  padding: 3rem 0 0 3rem;
+}
+.aside-header {
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 4rem;
+  padding: 0 1rem 1rem 0;
+}
+
+.data-container p {
+  color: #eed9ff;
+  line-height: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.data-register {
+  color: #674bb1;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  padding: 1rem 0;
+  margin: 2rem 0;
+  box-shadow: 0px 10px 20px 0px #552a7f;
+  font-size: 1.1rem;
+  width: 12rem;
+  text-align: center;
+}
+.data-register:hover {
+  color: #eed9ff;
+  background-color: #e980e7;
+}
+
+footer {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scoial-media-container {
+  display: flex;
+}
+
+.facebook-icon {
+  width: 3rem;
+}
+.facebook-icon:hover {
+  fill: pink;
+}
+.twitter-icon {
+  width: 3rem;
+  padding-left: 0.5rem;
+}
+.instagram-icon {
+  width: 3.3rem;
+  padding-left: 0.5rem;
+}
